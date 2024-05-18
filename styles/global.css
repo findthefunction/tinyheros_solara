@@ -1,0 +1,130 @@
+/* Reset some basic elements */
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* HTML5 hidden-attribute fix for older browsers */
+*[hidden] {
+    display: none;
+}
+
+body {
+    line-height: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #333; /* Default text color */
+    background-color: #fff; /* Default background */
+    padding: 20px; /* Slight padding around the content */
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Basic styling for the main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Basic grid system */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Default button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Header styles */
+.header {
+    padding: 20px 0;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}

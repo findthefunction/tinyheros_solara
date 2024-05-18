@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/global.css';
 import type { AppProps } from 'next/app';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
