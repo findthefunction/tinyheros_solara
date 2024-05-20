@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const wallets = useMemo(() => [
     new PhantomWalletAdapter()
-  ], [network]);
+  ], []);
 
   return (
     <ConnectionProvider endpoint={endpoint}>
